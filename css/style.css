@@ -81,9 +81,25 @@ body{
     transition: all 0.4s;
 }
 #btn-group-login{
+   
     transition: all 0.4s;
 }
 #btn-group-login:hover ,#btn-group-login:hover #login ,#btn-group-login:hover #top-navbar-icon {
     background-color: #f66436;
     color: #eee;
+}
+#update-btn{
+    transition: all 0.4s;
+}
+#update-btn:hover{
+    background-color: #f44336;
+}
+.card-shadow{
+    box-shadow: 2px 5px 10px #999;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.card-shadow:hover{
+    box-shadow: 2px 3px 5px #999;	
+    transform: translateY(-3px);
 }
