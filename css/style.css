@@ -103,3 +103,6 @@ body{
     box-shadow: 2px 3px 5px #999;	
     transform: translateY(-3px);
 }
+.task-side{
+    border-left: 3px solid #f66436;
+}

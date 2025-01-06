@@ -18,13 +18,18 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- beginnt navbar section -->
     <nav class="navbar navbar-expand-md navbar-light" id="navbar">
-      <button class="navbar-toggler bg-light  mb-2 ms-auto " type="button" data-bs-toggle="collapse"                data-bs-target="#mynavbar" >
+      <!-- this button wird im small size geöffnet -->
+      <button class="navbar-toggler bg-light  mb-2 ms-auto " type="button" data-bs-toggle="collapse"  data-bs-target="#mynavbar" >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- ende this button -->
+
+      <!-- link und top Seite of navbar -->
       <div class="navbar-collapse collapse" id="mynavbar">
-        <!-- <div class="container-fluid"> -->
           <div class="row">
+            <!-- beginnt links seite von Navbar -->
             <div class="col-xl-2 col-lg-3 col-md-4 slider fixed-top">
               <a
                 href=""
@@ -95,6 +100,8 @@
                 </li>
               </ul>
             </div>
+            <!-- endet links seite von Navbar -->
+             <!-- beginnt die Top seite von Navbar -->
             <div
               class="col-xl-10 col-lg-9 col-md-8 bg-dark top-navbar fixed-top py-2 py-lg-3 ms-auto"
             >
@@ -124,13 +131,17 @@
               </div>
             </div>
           </div>
+          <!-- Endet top Seite von navbar -->
           </div>
        <!--  </div> -->
       </div>
+      <!-- endet diese code von Link und top seite of navbar -->
     </nav>
+    <!-- Ended navbar section -->
     <section class="container-fluid">
      <div class="row">
       <div class="col-xl-10 col-lg-9 col-md-8 ms-auto mt-md-4 pt-md-5 pt-3">
+        <!-- beginnt carts section -->
         <div class="row justify-content-center mt-3">
           <div class="col-lg-3 col-sm-6">
             <div class="card card-shadow">
@@ -193,9 +204,12 @@
             </div>
           </div>
         </div>
+        <!-- endet carts section -->
+         <!-- beggint section of Project und tasks -->
         <div class="row mt-5">
-          <div class="col-lg-6">
-            <div class="bg-dark text-light rounded p-4">
+          <!-- start von Projects -->
+          <div class="col-lg-6 border rounded bg-dark">
+            <div class="text-light  p-4">
               <h4 class="">Projects:</h3>
               <h6 class="fw-bold mb-2 mt-4">Library</h6>
               <div class="progress" style="height: 30px;">
@@ -211,10 +225,238 @@
               </div>
             </div>
           </div>
+          <!-- endet von Projects -->
+           <!-- start von tasks -->
           <div class="col-lg-6">
-            <h3>Tasks:</h3>
+           <div class=" rounded p-4 border">
+            <h4 class="">Tasks:</h3>
+            <div class="container-fluid m-2 task-side bg-light">
+              <div class="row px-2 py-3 justify-content-center align-items-center">
+                <div class="col-1">
+                  <input type="checkbox" checked>
+                </div>
+                <div class="col-9">
+                  <span class="text-muted" >Developed Backend section</span>
+                </div>
+                <div class="col-1">
+                  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>edit</h6>">
+                    <i class="fa-solid fa-pen-to-square fa-lg text-success ml-2"></i>
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Delete</h6>">
+                    <i class="fa-solid fa-trash text-danger fa-lg "></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid m-2 task-side bg-light">
+              <div class="row px-2 py-3 justify-content-center align-items-center">
+                <div class="col-1">
+                  <input type="checkbox" class="form-check-input">
+                </div>
+                <div class="col-9">
+                  <span class="text-muted">Developed Frontend section</span>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Edti</h6>">
+                    <i class="fa-solid fa-pen-to-square fa-lg text-success ml-2"></i>
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Delete</h6>">
+                    <i class="fa-solid fa-trash text-danger fa-lg "></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid m-2 task-side bg-light ">
+              <div class="row px-2 py-3 justify-content-center align-items-center">
+                <div class="col-1">
+                  <input type="checkbox" class="form-check-input">
+                </div>
+                <div class="col-9">
+                  <span class="text-muted">Developed Frontend section</span>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Edti</h6>">
+                    <i class="fa-solid fa-pen-to-square fa-lg text-success ml-2"></i>
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Delete</h6>">
+                    <i class="fa-solid fa-trash text-danger fa-lg "></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid m-2 task-side bg-light">
+              <div class="row px-2 py-3 justify-content-center align-items-center">
+                <div class="col-1">
+                  <input type="checkbox" checked class="form-check-input">
+                </div>
+                <div class="col-9">
+                  <span class="text-muted">Developed Frontend section</span>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Edti</h6>">
+                    <i class="fa-solid fa-pen-to-square fa-lg text-success ml-2"></i>
+                  </a>
+                </div>
+                <div class="col-1">
+                  <a href="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<h6>Delete</h6>">
+                    <i class="fa-solid fa-trash text-danger fa-lg "></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+           </div>
           </div>
+          <!-- endet von tasks -->
         </div>
+        <!-- endet section of Projects und tasks -->
+         <!-- start von payment section und Tickets -->
+          <div class="row mt-5">
+            <!-- start von Payment -->
+            <div class="col-6 bg-dark text-light p-4">
+              <h4 class="text-center fw-bold mb-3">Payments</h4>
+              <div>
+                <table class="table table-dark table-hover text-center">
+                  <thead>
+                    <tr class="table-row">
+                      <th>#</th>
+                      <th>Name</th>
+                      <th>Fee</th>
+                      <th>Date</th>
+                      <th>State</th>
+                    </tr>
+                  </thead>
+                 <tbody>
+                  <tr class="">
+                    <td>1</td>
+                    <td>Asif</td>
+                    <td>1200$</td>
+                    <td>12.09.2023</td>
+                    <td>
+                      <span class="badge w-75 py-2 bg-success">Akzepted</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Sajjad</td>
+                    <td>1300$</td>
+                    <td>31.02.2024</td>
+                    <td>
+                      <span class="badge w-75 py-2 bg-danger">Reject</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Esmatullah</td>
+                    <td>1100$</td>
+                    <td>12.08.2023</td>
+                    <td>
+                      <span class="badge w-75 py-2 bg-success">Akzepted</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Nematullah</td>
+                    <td>1100$</td>
+                    <td>12.08.2023</td>
+                    <td>
+                      <span class="badge w-75 py-2 bg-success">Akzepted</span>
+                    </td>
+                  </tr>
+                 </tbody>
+                </table>
+                <!-- beginnt pagination section -->
+                <ul class="pagination justify-content-center list-unstyled mt-4">
+                    <li class="page-item">
+                      <a href="" class="page-link py-2 px-3">&laquo</a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3 bg-light text-dark">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3 bg-light text-dark">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3 bg-light text-dark">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3 bg-light text-dark">4</a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3 ">&raquo</a>
+                    </li>
+                </ul>
+                <!-- endet pagination section -->
+              </div>
+            </div>
+            <!-- endet von Payment -->
+             <!-- start von Tickets -->
+            <div class="col-6">
+              <div class="p-4 rounded border shadow shadow-lg">
+                <h4 class="text-center fw-bold text-muted mb-4 ">Letzte Tickets</h4>
+                <div>
+                  <table class="table table-hover text-center bg-light table-striped">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Respons</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Asif</td>
+                        <td>09.11.2023</td>
+                        <td>
+                          <span class="badge w-75 py-2 bg-info">Antworted</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Asif</td>
+                        <td>09.11.2023</td>
+                        <td>
+                          <span class="badge w-75 py-2 bg-info">Antworted</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Asif</td>
+                        <td>09.11.2023</td>
+                        <td>
+                          <span class="badge w-75 py-2 bg-info">Antworted</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Asif</td>
+                        <td>09.11.2023</td>
+                        <td>
+                          <span class="badge w-75 py-2 bg-info">Antworted</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <ul class="pagination justify-content-center list-unstyled mt-4">
+                    <li class="page-item"><a href="#" class="page-link py-2 px-3">&laquo;</a></li>
+                    <li class="page-item"><a href="#" class="page-link py-2 px-3">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link py-2 px-3">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link py-2 px-3">&raquo;</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Ende von Tickets -->
+          </div>
+          <!-- Endet von Payment section und Tickets -->
       </div>
      </div>
     </section>
@@ -223,5 +465,9 @@
     <!-- Bootstrap JS und Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+   <script>
+     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+   </script>
   </body>
 </html>
